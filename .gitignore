@@ -1,0 +1,5 @@
+cat <<EOF > .gitignore
+*.save
+*~
+EOF
+git add .gitignore
